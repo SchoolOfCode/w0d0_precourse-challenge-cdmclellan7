@@ -1,0 +1,86 @@
+body {
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: 
+      /**radial-gradient(white, white, transparent),**/
+    
+      repeating-linear-gradient(90deg, 
+        black 0px 4px,
+        gray 4px, 5px,
+        transparent 5px 35px,
+        black 35px 36px,
+        gray 36px 37px,
+        transparent 37px 67px,
+        black 67px 68px,
+        gray 68px 69px,
+        transparent 69px 99px),
+      repeating-linear-gradient(180deg, 
+        black 0px 4px,
+        gray 4px, 5px,
+        transparent 5px 35px,
+        black 35px 36px,
+        gray 36px 37px,
+        transparent 37px 67px,
+        black 67px 68px,
+        gray 68px 69px,
+        transparent 69px 99px),    
+      linear-gradient(20deg,
+        rgba(200,0,0,1) 24%,
+        white,
+        transparent 25% 74%,
+        white,
+         rgb(230, 165, 0) 75% 100%),
+      linear-gradient(164deg,
+        rgba(0,0,200,1) 24%,
+        white,
+        transparent 25% 74%,
+        white,
+        rgba(0,200,0,1) 75% 100%),
+      repeating-linear-gradient(288deg,
+        rgb(240, 240, 0) 24%,
+        white,
+        transparent 25% 74%,
+        white,
+        rgb(240, 240, 0) 75% 100%);
+  }
+  
+  #main {
+    max-width: 50em;
+    margin: auto;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 80px;
+    padding: 1.5em;
+  }
+  
+  
+  #title {
+    font-size: 3em;
+  }
+  
+  img {
+    max-width: 20em;
+    display: block;
+    height: auto;
+    margin: 0 auto 1em;
+    border-radius: 50%;
+  }
+  
+  #img-caption {
+    font-size: 1.3em;
+  }
+  
+  #tribute-info {
+    background: rgba(0,0,0,.2);
+    max-width: 700px;
+    margin: auto;
+    padding: 2em 1.5em 1.5em;
+    border-radius: 80px;
+    font-size: 1.3em;
+  }
+  
+  #footer-link {
+    margin-top: 2.5em;
+    margin-bottom: 0;
+  }
