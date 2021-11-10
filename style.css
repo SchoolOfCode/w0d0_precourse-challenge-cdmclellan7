@@ -1,4 +1,8 @@
-body {
+:root {
+    --random-color: white;
+  }
+  
+  body {
     color: black;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
@@ -44,8 +48,6 @@ body {
         transparent 25% 74%,
         white,
         rgb(240, 240, 0) 75% 100%);
-      
-   
   }
   
   #main {
@@ -104,9 +106,10 @@ body {
     background-color: white;
   }
   
+  /*random color change on hover*/
   #container p:hover {
-    background-color: red;
-  }
+    background-color: var(--random-color);
+  }  
   
   #footer-link {
     margin-top: 2.5em;
