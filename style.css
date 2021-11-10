@@ -3,6 +3,7 @@
   }
   
   body {
+    font-size: 67%; /*scales everything to be a bit smaller. */
     color: black;
     font-family: "Comic Sans MS", "Comic Sans", sans-serif;
     text-align: center;
