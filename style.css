@@ -77,6 +77,7 @@
   #tribute-info {
     background: white;
     max-width: 700px;
+    min-width: 0px;
     margin: auto;
     padding: 2em 1.5em 1.5em;
     border-radius: 80px;
@@ -119,4 +120,17 @@
     margin: 2em auto .1em;
   }
   
-  
+  /*style rules for smartphones*/
+  @media (min-width: 600px) {
+    #main {
+        max-width: 100%;
+    }
+
+    body {
+        font-size: 60%;
+    }
+
+    #container {
+        max-width: 100%;
+    }
+  }
