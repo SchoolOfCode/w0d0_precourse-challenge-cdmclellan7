@@ -83,7 +83,7 @@ body {
   
   }
   
-  #wrapper {
+  #container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px 0px;
@@ -95,7 +95,7 @@ body {
     border: 3px solid black;
   }
   
-  #wrapper p {
+  #container p {
     font-size: .9em;
     border: 5px solid black;
     border-radius: 10px;
@@ -107,6 +107,10 @@ body {
   #footer-link {
     margin-top: 2.5em;
     margin-bottom: 0;
+  }
+  
+  #citation {
+    margin: 2em auto .1em;
   }
   
   
