@@ -44,6 +44,8 @@ body {
         transparent 25% 74%,
         white,
         rgb(240, 240, 0) 75% 100%);
+      
+   
   }
   
   #main {
@@ -72,7 +74,7 @@ body {
   }
   
   #tribute-info {
-    background: rgba(0,0,0,.2);
+    background: white;
     max-width: 700px;
     margin: auto;
     padding: 2em 1.5em 1.5em;
@@ -80,7 +82,16 @@ body {
     font-size: 1.3em;
   }
   
+  #wrapper {
+    display: grid;
+    grid-template: "a b c"
+                   "d e f"
+                   "g h i"; 
+    border: solid 1px black;
+  }
+  
   #footer-link {
     margin-top: 2.5em;
     margin-bottom: 0;
   }
+  
