@@ -104,6 +104,10 @@ body {
     background-color: white;
   }
   
+  #container p:hover {
+    background-color: red;
+  }
+  
   #footer-link {
     margin-top: 2.5em;
     margin-bottom: 0;
