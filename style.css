@@ -80,6 +80,7 @@ body {
     padding: 2em 1.5em 1.5em;
     border-radius: 80px;
     font-size: 1.3em;
+  
   }
   
   #wrapper {
@@ -87,11 +88,25 @@ body {
     grid-template: "a b c"
                    "d e f"
                    "g h i"; 
-    border: solid 1px black;
+    grid-gap: 0px 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    border-radius: 7px;
+    border: 3px solid black;
+  }
+  
+  #wrapper p {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 0;
+    padding: 1em;
+    background-color: white;
   }
   
   #footer-link {
     margin-top: 2.5em;
     margin-bottom: 0;
   }
+  
   
