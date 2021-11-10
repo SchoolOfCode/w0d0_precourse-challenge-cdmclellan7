@@ -1,6 +1,6 @@
 body {
     color: black;
-    font-family: helvetica;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
     background-attachment: fixed;
     background-image: 
@@ -85,22 +85,22 @@ body {
   
   #wrapper {
     display: grid;
-    grid-template: "a b c"
-                   "d e f"
-                   "g h i"; 
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px 0px;
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    aspect-ratio: 1;
+    background-color: black; /*To eliminate the white spots in the corners between grid squares*/
     border-radius: 7px;
     border: 3px solid black;
   }
   
   #wrapper p {
+    font-size: .9em;
     border: 5px solid black;
     border-radius: 10px;
-    margin: 0;
-    padding: 1em;
+    margin: 0px;
+    padding: 10% 5% 0 5%;
     background-color: white;
   }
   
